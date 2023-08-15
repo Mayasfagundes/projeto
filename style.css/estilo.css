@@ -1,0 +1,57 @@
+@import url(./reset.css);
+@import url(./cabecalho.css);
+@import url(./projetos.css);
+@import url(./rodape.css);
+@import url(./contato.css);
+@import url(./conteudo.css);
+
+
+
+
+:root {
+    --fundo-principal: #F5F5F5;
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #D9D9D9;
+    --cinza-escuro: #333333;
+    --cinza-medio: #BDBDBD;
+    --fonte-principal: "Playfair";
+    --fonte-secundaria: "Nunito";
+    --font-pequena: "Roboto";
+
+}
+
+body{
+    background-color: var(--cinza-escuro);
+}
+
+/* Formatação Parallax*/
+
+body, html {margin: 0; font: 16px "lato", sans-serif;
+    color: #777; height: 100%;}
+
+.titulo__paralax {position: absolute; left: 0%;
+top: 45%; width: 100%; text-align: center;}
+
+.titulo__paralax span{color: #fff; background-color: #111;
+padding: 18px; font-size: 25px; letter-spacing: 5px;
+text-transform: uppercase;}
+    
+    
+    /* Efeito Parallax*/
+    
+    .home, .galeira { height: 100%; 
+    background: no-repeat; background-size: cover ;
+    background-position: center; background-attachment: fixed;
+    position: relative;}
+    
+    
+    .home{
+        background-image: url(../img/nizar-zulmi-_W6PB-JIO5o-unsplash.jpg);
+
+    }
+    .galeira{
+    background-image: url(../img/christian-wiediger-gVbOF8mdE3U-unsplash.jpg);
+
+    }
+    
