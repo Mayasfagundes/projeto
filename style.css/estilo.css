@@ -4,6 +4,7 @@
 @import url(./rodape.css);
 @import url(./contato.css);
 @import url(./conteudo.css);
+@import url(./home.css);
 
 
 
@@ -27,22 +28,48 @@ body{
 
 /* Formatação Parallax*/
 
-body, html {margin: 0; font: 16px "lato", sans-serif;
-    color: #777; height: 100%;}
-
-.titulo__paralax {position: absolute; left: 0%;
-top: 45%; width: 100%; text-align: center;}
-
-.titulo__paralax span{color: #fff; background-color: #111;
-padding: 18px; font-size: 25px; letter-spacing: 5px;
-text-transform: uppercase;}
+    body, html {
+        margin: 0; 
+        font: 16px var(--fonte-principal);
+        color: var(--branco); 
+        height: 100%;
+    }
     
     
+    .titulo__paralax {
+        font-family: var(--fonte-principal);
+        font-weight: 700;
+        position: absolute; 
+        left: 0%;
+        top: 45%; 
+        width: 100%; 
+        text-align: center;
+    }
+    
+    .titulo__paralax, h2 {
+        color: var(--branco); 
+        background-color: var(--preto);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin-left: 35%; 
+        font-size: 25px; 
+        letter-spacing: 0.5rem;
+        opacity: 0.5;
+        text-transform: uppercase;
+        position: relative;
+        width: 30%; 
+    
+    
+}
+   
     /* Efeito Parallax*/
     
-    .home, .galeira { height: 100%; 
-    background: no-repeat; background-size: cover ;
-    background-position: center; background-attachment: fixed;
+    .home, .galeira, .sobre{ 
+    height: 100%; 
+    background: no-repeat; 
+    background-size: 100% ;
+    background-position: center; 
+    background-attachment: fixed;
     position: relative;}
     
     
@@ -54,4 +81,10 @@ text-transform: uppercase;}
     background-image: url(../img/christian-wiediger-gVbOF8mdE3U-unsplash.jpg);
 
     }
+    
+    .sobre{
+    background-image: url(../img/tianxian-la8JaniL6kg-unsplash.jpg);
+    }
+
+
     

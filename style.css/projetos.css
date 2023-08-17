@@ -17,9 +17,9 @@
 .projetos__container-geral {
 
 
-    width: 90%;
+    width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     justify-content: center;
     height: 800px;
     gap: 10px;
@@ -28,7 +28,7 @@
 
 
   > div {
-    flex: 0 0 120px;
+    flex: 0 0 200px;
     border-radius: 0.5rem;
     transition: 0.5s ease-in-out;
     cursor: pointer;
@@ -104,7 +104,7 @@
     }
 
     &:hover {
-      flex: 0 0 250px;
+      flex: 0 0 600px;
       box-shadow: 1px 3px 15px #7645d8;
       transform: translatey(-30px);
     }
