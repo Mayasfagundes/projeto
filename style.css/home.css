@@ -26,6 +26,7 @@
     
 }
 
+
 .carousel__slide img {
     display: block;
     flex: 1 1 auto;
@@ -215,8 +216,40 @@
 }
 @media screen and (max-width: 450px) {
 
+    
+.home__texto{
+    margin: 2rem 2rem;
+    text-align: justify;
+    
+    
+}
 
+    .home__conteudo{
+        display: grid;
+        grid-template-columns: auto;
+    
+    
+    }
+
+    .carousel {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: left;
+        position: relative;
+        margin-left: 1.5rem;
 
     }
+
+    .carousel__thumbnails {
+        list-style: none;
+        padding:0 ;
+        display: flex;
+        flex-direction: row;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 ;
    
-    
+}
+
+}
