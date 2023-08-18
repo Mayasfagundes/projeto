@@ -28,56 +28,40 @@ body{
 
 /* Formatação Parallax*/
 
-    body, html {
-        margin: 0; 
-        font: 16px var(--fonte-principal);
-        color: var(--branco); 
-        height: 100%;
-    }
+    
+    body, html {margin: 0; font: 16px "lato", sans-serif;
+    color: #777; height: 100%;}
+    
+    p {margin-bottom: 20px;}
     
     
     .titulo__paralax {
-        font-family: var(--fonte-principal);
-        font-weight: 700;
+        color: #fff; 
+        background-color: #111;
+        border-radius: 1rem;
+        opacity: 0.9;
+        padding: 18px; 
+        font-size: 25px; 
+        letter-spacing: 5px;
+        text-transform: uppercase;
         position: absolute; 
-        left: 0%;
-        top: 45%; 
-        width: 100%; 
+        left: 45%;
+        top: 45%;  
         text-align: center;
     }
     
-    .titulo__paralax, h2 {
-        color: var(--branco); 
-        background-color: var(--preto);
-        border-radius: 1rem;
-        padding: 1rem;
-        margin-left: 35%; 
-        font-size: 25px; 
-        letter-spacing: 0.5rem;
-        opacity: 0.5;
-        text-transform: uppercase;
-        position: relative;
-        width: 30%; 
-    
-    
-}
-   
     /* Efeito Parallax*/
     
-    .home, .galeira, .sobre{ 
-    height: 100%; 
-    background: no-repeat; 
-    background-size: 100% ;
-    background-position: center; 
-    background-attachment: fixed;
+    .home, .galeria , .sobre, .caixa4 { height: 100%; 
+    opacity: 0.7; background: no-repeat; background-size: cover ;
+    background-position: center; background-attachment: fixed;
     position: relative;}
-    
     
     .home{
         background-image: url(../img/nizar-zulmi-_W6PB-JIO5o-unsplash.jpg);
 
     }
-    .galeira{
+    .galeria{
     background-image: url(../img/christian-wiediger-gVbOF8mdE3U-unsplash.jpg);
 
     }
@@ -87,4 +71,12 @@ body{
     }
 
 
+    @media screen and (max-width: 450px) {
     
+        .titulo__paralax {
+           
+            left: 30%;
+            top: 45%;  
+        }
+
+    }

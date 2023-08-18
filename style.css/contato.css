@@ -6,8 +6,8 @@
 .contato__texto {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    color: transparent;
 }
 
 .contato__titulo {
@@ -31,7 +31,7 @@
 .contato__email::placeholder {
     font-family: var(--fonte-principal);
     color: var(--azul);
-    background: url("../imagens/Email.svg") no-repeat;
+    background: url("../imagens/Email.svg") no-repeat left center;
     padding-left: 2em;
 }
 
@@ -57,8 +57,7 @@
 }
 
 @media screen and (min-width: 1728px) {
-
-    .contato{
+    .contato {
         padding: 3em 17vw;
     }
 }

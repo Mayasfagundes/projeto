@@ -8,51 +8,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Playfair+Display:wght@500;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js">
     <link rel="stylesheet" href="./style.css/estilo.css">
     
 </head>
 <body>
   <header class="cabecalho-geral" id="cabecalho-geral">
   <div class="cabecalho">
-    <div class=" cabecalho__logo">
-    <ul class="logo__cabecalho">
-        <li class="logo__principal"> <img class="logo__img" src="./img/_Mayara.svg" alt=""></li>
-    </ul>
-    </div>
-
+  
     <div class="cabecalho__icones">
     <ul class="icones__cabecalho">
       <li class="icones__cabecalho-link"><a href="#home" class="cabecalho-link">HOME</a></li>
-      <li class="icones__cabecalho-link"><a href="#sobre" class="cabecalho-link">SOBRE</a></li>
-      <li class="icones__cabecalho-link"><a href="#projetos" class="cabecalho-link">PROJETOS</a></li>
-      <li class="icones__cabecalho-link"><a href="#contatos" class="cabecalho-link">CONTATOS</a></li>
+      <li class="icones__cabecalho-link"><a href="#sobre" class="cabecalho-link">SOBRE MIM</a></li>
+      <li class="icones__cabecalho-link"><a href="#projeto" class="cabecalho-link">PROJETO</a></li>
+      <li class="icones__cabecalho-link"><a href="#galeria" class="cabecalho-link">CONTATOS</a></li>
     </ul>
     </div>
 
-    <div class="dropdown">
-      <button class="dropbtn">Menu</button>
-      <div class="dropdown-content">
-        <a href="#home" class="cabecalho-link">HOME </a>
-        <a href="#sobre" class="cabecalho-link">SOBRE </a>
-        <a href="#projetos" class="cabecalho-link">PROJETOS</a>
-        <a href="#contatos" class="cabecalho-link">CONTATOS</a>
+    <div class="cabecalho__icones-mobile">
+      <ul class="icones__cabecalho-mobile">
+        <li class="icones__cabecalho-link-mobile"><a href="#home"><img src="./img/icone-home.svg" alt="menu home" class="icone__mobile"></a>
+        <li class="icones__cabecalho-link-mobile"><a href="#sobre"><img src="./img/icone-pessoa.svg" alt="menu home" class="icone__mobile"></a>
+        <li class="icones__cabecalho-link-mobile"><a href="#projeto"><img src="./img/icone_ideia.svg" alt="menu home" class="icone__mobile"></a>
+        <li class="icones__cabecalho-link-mobile"><a href="#galeria"><img src="./img/icone-galeria.svg" alt="menu home" class="icone__mobile"></a>
+      </ul>
       </div>
-    </div>
+
+      
   
 </header>
 
 
-<section class="home"> 
-  <h2 class="titulo__paralax">Titulo</h2>
+<section class="home" id="home"> 
+  <span class="titulo__paralax">Titulo</span>
 
 
 
 </section>
 
 
-<section class="home__sobre">
-  <h3 class="home__titulo">Titulo</h2>
+<section class="home__sobre" id="sobre">
+  <h3 class="home__titulo">Titulo</h3>
   <div class="home__conteudo">
   <p class="home__texto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus, ante sed elementum venenatis, 
@@ -73,18 +68,14 @@
               <input type="radio" name="slides" id="slide-2">
               <input type="radio" name="slides" id="slide-3">
               <input type="radio" name="slides" id="slide-4">
-              <input type="radio" name="slides" id="slide-5">
-              <input type="radio" name="slides" id="slide-6">
+            
               <ul class="carousel__slides">
                   <li class="carousel__slide">
                       <figure>
                           <div>
                               <img src="./img/jakob-owens-bQ0TogIULCM-unsplash.jpg" alt="">
                           </div>
-                          <figcaption>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              <span class="credit">Photo: Tim Marshall</span>
-                          </figcaption>
+                          
                       </figure>
                   </li>
                   <li class="carousel__slide">
@@ -92,10 +83,7 @@
                           <div>
                               <img src="./img/francois-olwage-dFFjVeYqMX8-unsplash.jpg" alt="">
                           </div>
-                          <figcaption>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              <span class="credit">Photo: Christian Joudrey</span>                            
-                          </figcaption>
+                          
                       </figure>
                   </li>
                   <li class="carousel__slide">
@@ -103,10 +91,7 @@
                           <div>
                               <img src="././img/jakob-owens-czArg8YcsbI-unsplash.jpg" alt="">
                           </div>
-                          <figcaption>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              <span class="credit">Photo: Steve Carter</span>                            
-                          </figcaption>
+                          
                       </figure>
                   </li>
                   <li class="carousel__slide">
@@ -114,10 +99,7 @@
                           <div>
                               <img src="./img/gabe-hobbs-Py3wHdjMaAI-unsplash.jpg" alt="">
                           </div>
-                          <figcaption>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                              <span class="credit">Photo: Aleksandra Boguslawska</span>                            
-                          </figcaption>
+                          
                       </figure>
                   
               </ul>    
@@ -135,6 +117,7 @@
                       <label for="slide-4"><img src="./img/gabe-hobbs-Py3wHdjMaAI-unsplash.jpg" alt=""></label>
                   </li>
                   
+                  
               </ul>
           </div>
       </div>
@@ -142,7 +125,7 @@
 
 </section>
 
-<section class="sobre"> 
+<section class="sobre" id="projeto"> 
   <h2 class="titulo__paralax">Titulo</h2>
 
 
@@ -150,13 +133,14 @@
 </section>
 
 <section class="conteudo">
-  <h3 class="conteudo__titulo">Titulo</h2>
+  <h3 class="conteudo__titulo">Titulo</h3>
   <div class="conteudo__conteudo">
     
-    <video class="conteudo__video" autoplay="" loop="" muted="" playsinline="">
+    <video class="conteudo__video" autoplay loop muted playsinline>
       <source src="./img/Design sem nome (3).mp4" type="video/mp4">
       Seu navegador não suporta o elemento de vídeo.
-    </video>
+  </video>
+  
 
   <p class="conteudo__texto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus, ante sed elementum venenatis, arcu lorem facilisis quam, vitae commodo lorem metus at ligula. Suspendisse non molestie tortor, ac pretium ex. Aliquam eget metus ut nisi rhoncus mattis et a dolor. Nullam viverra, est eu scelerisque auctor, lacus sem fermentum dolor, eu varius nisl elit eget tortor. Donec mattis convallis malesuada. Duis scelerisque lacinia nibh, non vulputate libero convallis id. Sed non quam eget est volutpat posuere non a libero. Suspendisse vulputate lacus ut elit eleifend, et vehicula urna hendrerit. Donec vulputate velit eu neque egestas fermentum. Vestibulum nec tincidunt eros. Nam dictum, diam eget posuere faucibus, nunc tortor vulputate lectus, ut luctus velit nisl a sem. Duis volutpat ut tellus posuere imperdiet. Etiam tempus, mi at laoreet egestas, ligula magna auctor est, elementum placerat nisl odio eu odio.
@@ -170,66 +154,56 @@ In mi augue, elementum et enim sed, ornare porta mauris. Cras mauris sem, gravid
 </section>
 
 
-<section class="galeira">
+<section class="galeria" id="galeria">
   <h2 class="titulo__paralax">Galeria</h2>
 
 </section>
 
 <section class="projetos" id="projetos">
-
   <div class="projetos__container-geral">
     <div class="projetos__container">
       <div class="content">
-        
-        <a href="https://mobilefirst-six.vercel.app/#" class="btn-contact">Ver mais</a>
       </div>
     </div>
     <div>
       <div class="content">
         
-        <a href="https://desafio-front-end-alura.vercel.app/" class="btn-contact">Ver mais</a>
       </div>
     </div>
     <div>
       <div class="content">
         
-        <a href="https://aluraplus-nine-sigma.vercel.app/" class="btn-contact">Ver mais</a>
       </div>
     </div>
     <div>
       <div class="content">
         
-        <a href="https://aluraplus-nine-sigma.vercel.app/" class="btn-contact">Ver mais</a>
       </div>
     </div>
     <div class="projetos__container">
       <div class="content">
         
-        <a href="https://mobilefirst-six.vercel.app/#" class="btn-contact">Ver mais</a>
       </div>
     </div>
     <div>
       <div class="content">
         
-        <a href="https://desafio-front-end-alura.vercel.app/" class="btn-contact">Ver mais</a>
       </div>
     </div>
     <div>
       <div class="content">
         
-        <a href="https://aluraplus-nine-sigma.vercel.app/" class="btn-contact">Ver mais</a>
       </div>
     </div>
     <div>
     <div class="content">
         
-        <a href="https://desafio-front-end-alura.vercel.app/" class="btn-contact">Ver mais</a>
-      </div>
+      <button class="abrir__imagem">Abrir</button>
+    </div>
     </div>
     <div>
       <div class="content">
        
-        <a href="https://aluraplus-nine-sigma.vercel.app/" class="btn-contact">Ver mais</a>
       </div>
     </div>
   </div>
@@ -288,6 +262,8 @@ In mi augue, elementum et enim sed, ornare porta mauris. Cras mauris sem, gravid
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-<script src="./js/cabecalho.js"></script>    
+<script src="./js/cabecalho.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+
 </body>
 </html>
