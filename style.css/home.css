@@ -20,7 +20,7 @@
 }
 
 .home__texto{
-    margin: 10rem 5rem;
+    margin: 10rem 2rem 10rem 7rem;
     text-align: justify;
     
     
@@ -31,9 +31,10 @@
     display: block;
     flex: 1 1 auto;
     object-fit: contain; /* Change this to your desired object-fit value */
-    max-width: 90%; /* Adjust this as needed */
+    max-width: 70%; /* Adjust this as needed */
     height: 100%;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    margin-left: 7rem;
 }
 .carousel__thumbnails img {
     display: block;
@@ -74,13 +75,14 @@
   .container {
       width: auto;
       margin: 0 auto;
+     
   }
   
   .carousel {
       display: grid;
       grid-template-columns: auto auto;
-      text-align: left;
-      position: relative;
+      justify-content: center;
+      align-items: center;
        
       > input {
           clip: rect(1px, 1px, 1px, 1px);
@@ -202,7 +204,8 @@
           width: 100%;
           height: 100%;
           object-fit: cover;
-          border-radius: 1rem;
+          border-radius: 2rem;
+          
         
       }
   }
@@ -227,16 +230,19 @@
     .home__conteudo{
         display: grid;
         grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
     
     
     }
 
     .carousel {
-        display: grid;
-        grid-template-columns: auto;
-        text-align: left;
-        position: relative;
-        margin-left: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 5rem;
 
     }
 
@@ -248,7 +254,8 @@
         width: 20rem;
         justify-content: center;
         align-items: center;
-        margin: 0 ;
+        margin-left: 6rem;
+        padding-top: 1rem;
    
 }
 
