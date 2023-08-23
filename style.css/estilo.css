@@ -79,6 +79,11 @@ body{
             top: 45%;  
         }
 
+        .home, .galeria , .sobre, .caixa4 { height: 100%; 
+            opacity: 0.7; background: no-repeat; background-size: cover ;
+            background-position: center; background-attachment: fixed;
+            position: relative;}
+
         .home{
             background-image: url(../img/PARALLAXMOBILE1.png);
     
