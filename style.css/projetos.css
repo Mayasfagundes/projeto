@@ -40,39 +40,39 @@
 
 
     &:nth-of-type(1) {
-      background: url("../img/altinay-dinc-LluELtL5mK4-unsplash.jpg")
+      background: url("../img/1.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(2) {
-      background: url("../img/nicolas-savignat-wU5sBkxKtXs-unsplash.jpg")
+      background: url("../img/2.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(3) {
-      background: url("../img/adam-miller-dBaz0xhCkPY-unsplash.jpg")
+      background: url("../img/3.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(4) {
-      background: url("../img/engin-akyurt-6Gs21-_UdDI-unsplash.jpg")
+      background: url("../img/4.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(5) {
-      background: url("../img/warren-fNUNt9w3m-Q-unsplash.jpg")
+      background: url("../img/5.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(6) {
-      background: url("../img/dave-lsoogGC_5dg-unsplash.jpg")
+      background: url("../img/6.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(7) {
-      background: url("../img/drew-tilk-rQ5dDFQS3r8-unsplash.jpg")
+      background: url("../img/7.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(8) {
-      background: url("../img/thomas-serer-bRDL3HDmoqU-unsplash.jpg")
+      background: url("../img/8.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(9) {
-      background: url("../img/jeybi-esguerra-IapiMK-Wyps-unsplash.jpg")
+      background: url("../img/9.png")
         no-repeat 50% / cover;
     }
  
