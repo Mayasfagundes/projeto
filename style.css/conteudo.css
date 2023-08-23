@@ -19,10 +19,10 @@
 }
 
 .conteudo__video {
-    width: 400px;
-    height: 600px;
+    width: 100%;
+    height: auto;
     position: relative;
-    margin: 1rem 0 0 3rem; /* Adjusted margin for consistency */
+    margin: 2rem; /* Adjusted margin for consistency */
     transition: 0.5s ease-in-out;
     overflow: hidden;
 }
@@ -37,25 +37,21 @@
 }
 
 @media screen and (max-width: 450px) {
+
     .conteudo__conteudo {
         display: grid;
         grid-template-columns: auto ;
+        justify-content: center;
+        align-items: center;
+        
         
     }
 
     .conteudo__video {
-        width: 300px;
-        height: 500px;
-        position: relative;
-        margin: 2rem; /* Adjusted margin for consistency */
-        transition: 0.5s ease-in-out;
-        overflow: hidden;
-    }
+        padding-right: 4rem;
 
-    .conteudo__texto {
-        margin: 2rem;
-        text-align: justify;
     }
+    
 
     
    

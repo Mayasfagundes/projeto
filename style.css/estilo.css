@@ -62,12 +62,12 @@ body{
 
     }
     .galeria{
-    background-image: url(../img/PARALLAX2.png);
+    background-image: url(../img/PARALLAX5.png);
 
     }
     
     .sobre{
-    background-image: url(../img/PARALLAX3.png);
+    background-image: url(../img/PARALLAX4.png);
     }
 
 
@@ -77,6 +77,19 @@ body{
            
             left: 30%;
             top: 45%;  
+        }
+
+        .home{
+            background-image: url(../img/PARALLAXMOBILE1.png);
+    
+        }
+        .galeria{
+        background-image: url(../img/PARALLAXMOBILE13.png);
+    
+        }
+        
+        .sobre{
+        background-image: url(../img/PARALLAXMOBILE2.png);
         }
 
     }
