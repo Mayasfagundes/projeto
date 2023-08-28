@@ -2,34 +2,9 @@
     .rodapé {
         display: flex;
         justify-content: space-around;
-        background-color: var(--cinza-claro);
-        padding: 1em;
-        border-top: 2px solid var(--branco);
+        background-color: #0A2A0A;
+        padding-bottom: 6rem;
+        padding-top: 0.5rem;
     }
 
-    .lista-rodapé {
-        display: block;
-    }
-
-    .lista-rodapé__item {
-        display: flex;
-        align-items: center;
-        margin: 1.5em -0.5em;
-
-
-    }
-
-    .lista-rodapé__link {
-        color: var(--cinza);
-        text-decoration: none;
-        margin: 1em;
-    }
-
-    .lista-rodapé__titulo {
-        font-size: 14px;
-        color: var(--cinza-claro);
-    }
-
-    .rodapé__titulo {
-        font-size: 24px;
-    }
+   
