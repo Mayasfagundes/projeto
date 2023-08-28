@@ -52,10 +52,16 @@ body{
     
     /* Efeito Parallax*/
     
-    .home, .galeria , .sobre, .caixa4 { height: 100%; 
-    opacity: 0.7; background: no-repeat; background-size: cover ;
-    background-position: center; background-attachment: fixed;
-    position: relative;}
+    .home, .galeria , .sobre, .caixa4 { 
+        height: 100vh !important;
+        width: 100%; 
+        position: relative;
+        overflow: hidden;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
     
     .home{
         background-image: url(../img/PARALLAX1.png);
@@ -78,11 +84,6 @@ body{
             left: 30%;
             top: 45%;  
         }
-
-        .home, .galeria , .sobre, .caixa4 { height: 100%; 
-            opacity: 0.7; background: no-repeat; background-size: cover ;
-            background-position: center; background-attachment: fixed;
-            position: relative;}
 
         .home{
             background-image: url(../img/PARALLAXMOBILE1.png);
