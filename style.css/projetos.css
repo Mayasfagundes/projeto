@@ -52,7 +52,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
 
   .container__galeria{
     column-count: 2;
