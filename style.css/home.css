@@ -64,9 +64,7 @@
           height: 100%;
     }
   
-  
-  // Styling
-  
+    
   section {
       background: #F4F4F4;
       padding: 50px 0;
@@ -228,7 +226,9 @@
     
 .home__texto{
     text-align: justify;
-    
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
     
 }
 
@@ -247,6 +247,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 0;
 
     }
 
@@ -293,4 +294,3 @@
 
 
 
-}
