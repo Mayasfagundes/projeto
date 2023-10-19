@@ -1,3 +1,7 @@
+.projetos{
+  background-color: #0A2A0A;
+
+}
 
 .container{
   padding-top: 2rem;
@@ -33,6 +37,8 @@
   }
 }
 
+
+
 .gallery:target{
   position: fixed;
   width: 40%;
@@ -52,7 +58,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
 
   .container__galeria{
     column-count: 2;
