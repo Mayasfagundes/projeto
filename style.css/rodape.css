@@ -5,6 +5,7 @@
         background-color: #0A2A0A;
         padding-bottom: 1rem;
         padding-top: 0.5rem;
+        border-top: 1px solid ;
     }
 
     @media screen and (max-width: 768px) {

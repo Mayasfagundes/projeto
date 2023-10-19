@@ -1,3 +1,7 @@
+.projetos{
+  background-color: #0A2A0A;
+
+}
 
 .container{
   padding-top: 2rem;
@@ -32,6 +36,8 @@
     visibility: visible;
   }
 }
+
+
 
 .gallery:target{
   position: fixed;
