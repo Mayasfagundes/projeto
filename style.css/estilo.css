@@ -84,51 +84,12 @@ body{
             top: 45%;  
         }
 
-        .home{
-            background-image {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: -1;
-                /* Set your background image here */
-                background-image: url(../img/PARALLAXMOBILE1.png);
-                background-size: cover;
-                pointer-events: none; /* This is important to prevent interference with content */
-              }
-              
-        
-        }
-        .galeria{
-            background-image {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                z-index: -1;
-                /* Set your background image here */
-                background-image: url(../img/PARALLAXMOBILE13.png);
-                background-size: cover;
-                pointer-events: none; /* This is important to prevent interference with content */
-              }
-    
-        }
-        
-        .sobre{ 
-            background-image {
-            position: fixed;
-            top: 0;
-            left: 0;
+        .home, .galeria, .sobre, .caixa4 {
+            height: 100vh !important;
             width: 100%;
-            height: 100%;
-            z-index: -1;
-            /* Set your background image here */
-            background-image: url(../img/PARALLAXMOBILE2.png);
+            background-position: center;
             background-size: cover;
-            pointer-events: none; /* This is important to prevent interference with content */
-          }
+            background-attachment: scroll; /* Suspender efeito parallax em dispositivos móveis */
         }
 
     }
