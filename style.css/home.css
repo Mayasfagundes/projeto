@@ -44,27 +44,7 @@
     object-fit: contain; /* Change this to your desired object-fit value */
     border-radius: 1rem;
 }
-
-
-      
-    &:before {
-      display: block;
-      grid-template-columns: auto auto;
-      content: "";
-      width: 100%;
-    }
-      
-    > img {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          width: 100%;
-          height: 100%;
-    }
-  
-    
+     
   section {
       background: #F4F4F4;
       padding: 50px 0;
@@ -172,40 +152,6 @@
       justify-content: center;
       align-items: center;
       margin: 0 ;
-      
-    
-      li {        
-          flex: 1 1 auto;
-          max-width: calc((100% / 6) - 20px);  
-          margin: 0 10px;
-          transition: all 300ms ease-in-out;
-      }
-      
-      label {
-          display: block;
-          
-                    
-          &:hover,
-          &:focus {
-              cursor: pointer;
-              
-              img {
-                  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.25);
-                  transition: all 300ms ease-in-out;
-                 
-              }
-          }
-      }
-      
-      img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          border-radius: 2rem;
-          
-        
-      }
   }
 
 
